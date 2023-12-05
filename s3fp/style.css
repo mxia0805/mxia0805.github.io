@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Titan One', sans-serif;
+    background:linear-gradient(45deg, #5CA9E9,#7edec6 , #bcd3f4, #D8B5FF); 
+}
+  
+  canvas {
+    border: 8px solid #e8c8fa;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  canvas:hover {
+    transform: scale(1.1);
+  }
+  
+  canvas:active {
+    border-color: #c8fae8; /* Change border color on click */
+  }
+  
+  h1 {
+    color:#fbcdf2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 50px; 
+  }
+
+  h2 {
+    color:#fbcdf2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 25px;
+  }
+    
+    
