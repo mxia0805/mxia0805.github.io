@@ -63,3 +63,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 100%;
+        /* Add other rules for small screens if needed */
+    }
+
+    header {
+        font-size: 30px; /* Adjust the font size for smaller screens */
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+}
